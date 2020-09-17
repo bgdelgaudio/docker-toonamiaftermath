@@ -3,6 +3,14 @@
 
 ## Development Branch
 
+## To-Do's
+ - Remove xTeve integration? (having multiple tuners seems to mess up my setup at least)
+ - Generate .m3u from .m3u8 streams
+ - Automatically generate and update .xmltv from guide on site
+
+ This build is being made specifically to install with Docker on Unraid.
+ I would like to create a (headless) docker that just does the above, with minimal settings managed in the docker settings.
+
 [![https://www.toonamiaftermath.com/](https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018)](https://www.toonamiaftermath.com/)
 
 This is a fork of [chris102994](https://github.com/chris102994/docker-toonamiaftermath)'s original creation with the intent of adding additional streams from the site as well as pushing to Docker Hub for easier Unraid integration.
@@ -12,14 +20,6 @@ This is a fork of [chris102994](https://github.com/chris102994/docker-toonamiaft
 I do not officially endorse the Toonami Aftermath project or its affiliates. 
 
 This is a simple project that scrapes the website and generates an m3u playlist along with a XmlTV that can be managed with [xteve](https://xteve.de/) so that live tv players such as Emby or Plex can view the channels. 
-
-## To-Do's
- - Remove xTeve integration? (having multiple tuners seems to mess up my setup at least)
- - Generate .m3u from .m3u8 streams
- - Automatically generate and update .xmltv from guide on site
-
- This build is being made specifically to install with Docker on Unraid.
- I would like to create a (headless) docker that just does the above, with minimal settings managed in the docker settings.
 
 ## Outside Packages
 * Built on chris102994's [xteve Image](https://github.com/chris102994/docker-xteve)
